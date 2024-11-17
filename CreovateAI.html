@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreovateAI - Art Rating</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="text">CREOVATEAI</div>
+            <div class="menu-icon" id="menu-icon">☰</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#artrate">ArtRate</a></li>
+                <li><a href="index.html#feedback">Give Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section" id="creovate-ai">
+            <h1>CreovateAI - Art Rating</h1>
+            <div class="content-center">
+                <input type="file" id="art-upload" accept="image/*">
+                <button id="check-rating" onclick="checkRating()">Check Rating</button>
+                <div class="rating-bar-container">
+                    <label for="rating-bar">Rating:</label>
+                    <progress id="rating-bar" value="0" max="10"></progress>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+        function checkRating() {
+            // Placeholder function to simulate rating check
+            document.getElementById("rating-bar").value = Math.floor(Math.random() * 11); // Random rating for now
+        }
+    </script>
+</body>
+</html>
