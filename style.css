@@ -140,7 +140,6 @@ button:hover {
 
 footer {
     height: 500px;
-    
     background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(47, 38, 38));
     color: #fff;
     padding: 40px;
@@ -169,10 +168,10 @@ footer {
 
 /* Styling for the form */
 .unique-form-container {
-    background-color: #333;
-    padding: 20px;
+    background-image: linear-gradient(to right, rgb(21, 18, 18), rgb(47, 38, 38)); 
+    padding: 60px;
     border-radius: 20px;
-    max-width: 400px;
+    max-width: 1000px;
     margin: 20px auto;
     display: flex;
     flex-direction: column;
@@ -180,15 +179,25 @@ footer {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
+#feedback-text {
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .unique-form-container input,
 .unique-form-container textarea {
-    background-color: #444;
+    background-color: #1c1c1c;
     color: #fff;
+    position: relative;
     border: 2px solid #555;
-    border-radius: 20px;
+    z-index: 1;
+    border-radius: 15px;
     padding: 10px;
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
 }
+
 
 .unique-form-container input:focus,
 .unique-form-container textarea:focus {
@@ -198,7 +207,7 @@ footer {
 }
 
 .unique-form-container textarea {
-    height: 100px;
+    height: 300px;
     border-radius: 20px;
 }
 
