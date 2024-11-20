@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Give feedback</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -19,18 +21,19 @@
         </nav>
     </header>
     <main>
-        
+
         <form class="unique-form-container" action="https://api.web3forms.com/submit" method="POST">
             <h1 id="feedback-text">Feedback</h1>
             <input type="hidden" name="access_key" value="fa89cb53-e6c0-4127-a77b-f70a4e2b411f">
-        
+
             <input type="text" name="name" required placeholder="Your Name">
             <input type="email" name="email" required placeholder="Your Email">
             <textarea name="message" required placeholder="Your Message"></textarea>
             <button type="submit">Submit Form</button>
         </form>
-    
+
     </main>
     <script src="script.js"></script>
 </body>
+
 </html>
